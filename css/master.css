@@ -1,0 +1,22 @@
+body{
+  background-color: #ccc;
+  color: blue;
+  font-family: arial;
+  }
+
+  h1{
+    padding: 10px 50px;
+  }
+
+article{
+display: flex;
+flex-basis: 900px;
+justify-content: center;
+justify-content: space-around;
+}
+.cir{
+  color: #fff;
+}
+.lat{
+  color:#111;
+}
