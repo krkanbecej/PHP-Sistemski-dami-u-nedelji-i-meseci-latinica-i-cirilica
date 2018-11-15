@@ -1,6 +1,6 @@
 <?php //automatski ispis datuma i dana u nedelji ćirilicom********
 
-//dani u nedelji na srpskom ćirilica*******************
+//dani u nedelji na srpskom latinica *******************
 $dani = date('D');
 if ($dani=='Mon'){
 echo 'ponedeljak';
@@ -32,7 +32,7 @@ echo 'nedelja';
 $datum = date(" d.");
 echo $datum;
 echo'&nbsp;';
-//meseci na srpskom ćirilica lako se može promeniti i u latinični prikaz************************
+//meseci na srpskom  latinični prikaz************************
 $meseci= date("n");
 if ($meseci ==1){
 echo 'Januar';
